@@ -5,7 +5,6 @@ body {
   align-items: center;
   height: 100vh;
   background-color: hsl(0, 0%, 95%);
-
 }
 #calcultor {
   font-family: Arial, Helvetica, sans-serif, serif;
@@ -21,6 +20,7 @@ body {
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
+  color: white;
 }
 #keys {
   display: grid;
@@ -46,6 +46,12 @@ button:hover {
 button:active {
   background-color: hsl(0, 0%, 50%);
 }
-.operator-btn{
-    background-color: hsl(35, 100%, 55%);
+.operator-btn {
+  background-color: hsl(35, 100%, 55%);
+}
+.operator-btn:hover {
+  background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active {
+  background-color: hsl(35, 100%, 75%);
 }
